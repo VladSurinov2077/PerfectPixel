@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1142px;
+    margin: 0 auto;
+}
+.containerheader{
+    margin: 0 auto;
+    width: 1142px;
+    display: flex;  
+    justify-content: space-between;
+    height: 144px;
+    align-items: center;
+    color: #30233D;
+    letter-spacing: 2px;
+}
+.containerheader p {
+    color: #30233D;
+    letter-spacing: 2px;
+    font-weight: 800;
+
+}
+.containerfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FCFCFC;
+    width: 1142px;
+    height: 100%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    font-size: 14px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #30233D;
+}
+.head{
+    display: flex;
+    align-items: center;
+    background-image: url(../img/204398-OZ3P4A-964\ \(3\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 380px;
+    color: white;
+    margin-bottom: 52px;
+}
+h1{
+    line-height: 73px;
+    font-weight: 600;
+    font-size: 54px ;
+}
+h2{
+    font-weight: 800;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 2px;
+color: #30124E;
+}
+.head p{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: 4px;
+}
+.content-pochemumi{
+    font-weight: 800;
+    color: #F61067;
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 207.9%;
+    letter-spacing: 6px;
+}
+.content-languages{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.pochemumibox{
+    font-size: 24px;
+    line-height: 33px;
+    color: #30233D;
+    width: 713px;
+}
+.content-pochemumi{
+    text-transform: uppercase;
+}
+.language{
+    width: 362px;
+    height: 362px;
+    border: #F61067 1px solid;
+    padding: 58px 36px;
+    line-height: 26px ;
+}
+.language h3{
+    margin-bottom: 17px;
+}
+.ellipse{
+    border-radius: 90px;
+    border: #F61067 1px solid;
+    width: 72px;
+    height: 72px;
+    margin-bottom: 18px;
+    box-sizing: border-box;
+    justify-content: center;
+    position: relative;
+}
+.ellipseimg{
+    position: absolute;
+    top: 20px;
+    left: 21px;
+} 
+footer{
+    background: linear-gradient(180deg, #33008D 0%, #150433 100%);
+    height: 198px;
+    margin-top: 91px;
+}
+.alrghtsrez{
+    font-size: 11.7px;
+    line-height: 163.35%;
+}
